@@ -554,8 +554,8 @@ def yurikorobot_about_callback(update, context):
                     InlineKeyboardButton(text="ᴇᴍɴᴀ ᴀssɪsᴛᴀɴᴛ", url="t.me/emnaassistant"),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴍᴇᴅᴇɴᴢ", url="t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/TeamDeeCode"),
+                    InlineKeyboardButton(text="ᴍᴇᴅᴇɴᴢ", url="t.me/medenzzzz"),
+                    InlineKeyboardButton(text="ᴍɪʟɴᴀ", url="https://t.me/milnabotchannel"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -571,7 +571,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *yurikorobot*
+            text=""" Hi..😻 I'm *Tezzabot*
                  \nHere is the [🔥Source Code🔥](https://github.com/TeamDeeCode) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
